@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    border-bottom: 4px solid #ff8a00;
+}
+
+/* Logo Section */
+.logo-area {
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #ff5f00;
+}
+
+/* Produk Section */
+.produk-section {
+    padding: 20px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Produk Card + Animasi */
+.produk-card {
+    width: 200px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    opacity: 0;                  /* sebelum muncul */
+    transform: translateY(20px); /* sebelum naik */
+    transition: 0.5s;            /* durasi animasi */
+}
+
+.produk-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Kontak */
+.kontak {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wa {
+    background: #25d366;
+}
+
+.ig {
+    background: #e1306c;
+}
